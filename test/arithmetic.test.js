@@ -206,7 +206,10 @@ describe('Arithmetic', function () {
         });
     });
 });
-
-
 // create a function to subtract two numbers
-    describe('Subtraction', function () {   
+    describe('Subtraction', function() {
+    it('subtracts floating point numbers', function(done) {
+        expect(subtract(5.5, 2.2)).toBeCloseTo(3.3);
+        done();
+    });
+});
