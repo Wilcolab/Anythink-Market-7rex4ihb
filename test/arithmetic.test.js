@@ -206,3 +206,7 @@ describe('Arithmetic', function () {
         });
     });
 });
+
+
+// create a function to subtract two numbers
+    describe('Subtraction', function () {   
